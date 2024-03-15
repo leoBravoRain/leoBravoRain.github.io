@@ -16,7 +16,7 @@
       id="cashback-widget"
       data-partner-id="3bf67c75-bfec-4581-81fc-0c9e52aaa9e8"
       data-locale="es-ES"
-      data-view="stores"
+      data-view="[VIEW_HERE]"
       data-user-id="[USER_ID_HERE]"
       data-show-carousel="true"
       data-color-primary="#bbadf9"
@@ -38,6 +38,7 @@
       var cashbackWidget = document.getElementById("cashback-widget");
       if (cashbackWidget) {
         cashbackWidget.dataset.userId = getParameterByName("userId");
+        cashbackWidget.dataset.view = getParameterByName("view");
       }
     </script>
   </body>
